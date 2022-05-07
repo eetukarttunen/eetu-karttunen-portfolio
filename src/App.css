@@ -13,20 +13,34 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
+
+section {
+  height: 100vh;
+  display: flex;
+  color: white;
+  scroll-snap-align: start;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.two {
+  background-color: rgb(211, 79, 79);
+}
+.three {
+  background-color: rgb(67, 91, 175);
+}
+.four {
+  background-color: lightsalmon;
+}
+
+
 
 @keyframes App-logo-spin {
   from {

@@ -1,0 +1,46 @@
+.intro {
+    background-color: rgb(219, 230, 255);
+    display:flex;
+    width: 100%;
+}
+.intro-left {
+    flex: 0.5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.intro-right {
+    flex: 0.5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    margin-top: 70px;
+    width: 60%;
+    overflow: hidden;
+}
+
+.header {
+    margin-top: 70px;
+    color: rgb(53, 56, 83);
+    font-size: 10vh;
+}
+.title {
+    margin-top: 70px;
+    color: rgb(53, 56, 83);
+    font-size: 4vh;
+}
+
+@media screen and (max-width: 960px) {
+    .header {
+        font-size: 5vh;
+    }
+    .title {
+        font-size: 2vh;
+    }
+
+  }
