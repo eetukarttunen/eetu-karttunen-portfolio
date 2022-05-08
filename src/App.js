@@ -15,13 +15,13 @@ function App() {
           <section>
             <Intro/>
           </section>
-          <section className='two'>
+          <section>
             <Portfolio/>
           </section>
-          <section className='three'>
+          <section>
             <Technologies/>
           </section >
-          <section className='four'>
+          <section>
             <Contact/>
           </section>
         </div>

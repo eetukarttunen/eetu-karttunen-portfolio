@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-
+import "./Technologies.css";
 
 function Technologies() {
   
   return (
-    <div>
-      Technologies
+    <div className='technologies'>
+      <h1>TECHNOLOGIES</h1>
     </div>
   );
 }
