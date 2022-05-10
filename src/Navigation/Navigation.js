@@ -13,8 +13,14 @@ function Navigation() {
     <div className="navigation">
         <div className="navigation-styling">
             <div className="navigation-left">
+                <h1>EETU</h1>
             </div>
-            <h1>EETU</h1>
+            <a href="https://www.linkedin.com/in/eetu-karttunen-912631160/" aria-label="linkedin" style={{color: "white"}}>
+                <i className="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/eetukarttunen" aria-label="linkedin" style={{color: "white"}}>
+                <i className="fab fa-github"></i>
+            </a>
             <div className="navigation-right">
                 <Menu className='menu-icon' onClick={handleClick}> 
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
