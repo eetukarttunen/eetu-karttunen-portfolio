@@ -1,19 +1,26 @@
 import React, {useEffect, useState} from 'react';
 import './Navigation.css';
-import Menu from '@material-ui/icons/Menu';
+//import Menu from '@material-ui/icons/Menu';
 
 function Navigation() {
-    const [click, setClick] = useState(false);
+    const [text, setText] = useState(":D");
 
-    const handleClick = () => setClick(!click);
-    const closeMobileMenu = () => setClick(false);
+    const onChange = () => {
+        if (text === ':D') {
+            setText('D:')
+        }
+        else if (text === 'D:') {
+            setText(':D')
+        }
+
+    }
 
 
   return (
     <div className="navigation">
         <div className="navigation-styling">
             <div className="navigation-left">
-                <h1>EETU</h1>
+                <h1 className='site-name' style = {{cursor: 'pointer'}} onClick={() => window.location.reload()}>EETUDEV</h1>
             </div>
             <a href="https://www.linkedin.com/in/eetu-karttunen-912631160/" aria-label="linkedin" style={{color: "white"}}>
                 <i className="fab fa-linkedin-in"></i>
@@ -22,10 +29,9 @@ function Navigation() {
                 <i className="fab fa-github"></i>
             </a>
             <div className="navigation-right">
-                <Menu className='menu-icon' onClick={handleClick}> 
-                    <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-                </Menu>
-            <ul className={click ? 'navi-menu active' : 'navi-menu'}></ul>
+                <div className='right-icon'>
+                    <h3 style = {{cursor: 'pointer'}}  onClick={() => onChange()}>{text}</h3>  
+                </div>
             </div>
         </div>
     </div>

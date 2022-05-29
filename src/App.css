@@ -25,9 +25,9 @@ section {
 }
 
 .container {
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
   height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow: scroll;
 }
 
 @keyframes App-logo-spin {
