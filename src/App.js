@@ -3,9 +3,6 @@ import './App.css';
 import Navigation from './Navigation/Navigation';
 import Intro from './Pages/Intro';
 import Portfolio from './Pages/Portfolio';
-import Technologies from './Pages/Technologies';
-import Contact from './Pages/Contact';
-import createScrollSnap from 'scroll-snap'
 
 function App() {
      
@@ -18,7 +15,7 @@ function App() {
             <Intro/>
           </section>
           <section id="2">
-            <Technologies/>
+            <Portfolio/>
           </section>
         </div>
       </div>

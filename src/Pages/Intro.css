@@ -1,17 +1,17 @@
 .intro {
-    background: linear-gradient(180deg, rgb(25, 26, 39) 0%, rgb(62, 64, 102) 100%);
+    background: rgb(235,235,240);
+    background: linear-gradient(0deg, rgba(235,235,240,1) 0%, rgba(224,224,236,1) 100%);
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(241, 245, 255);
+    color: rgb(62, 64, 102);
 
 }
 
 .intro-right {
     display: none;
     flex: 0.5;
-    /*display: flex;*/
     justify-content: center;
     align-items: center;
     
@@ -30,12 +30,13 @@
     grid-column: 1;
     grid-row: 2;
     font-weight: 300;
+    font-size: 1px;
 }
-  
 
 img {
     height: 90%;
 }
+
 .img-container {
     width: 600px;
     height: 600px;
@@ -59,11 +60,34 @@ img {
 .intro-left h1 {
     font-size: 70px;
     margin-bottom: 0;
+    color: #3f3f3f;
 } 
 .intro-left h3 {
     margin-top: 0;
-    font-size: 30px;
-} 
+    font-size: 20px;
+    color:rgb(145, 145, 145);
+    font-weight: 400;
+}
+
+.icons-container {
+    margin-top: 50px;
+    display: flex;
+    gap: 25px;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+img {
+    width: 5%;
+}
+
+.developer-title {
+    color: rgb(59, 157, 209);
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
 
 @media screen and (max-width: 1200px) {
     .img-container {

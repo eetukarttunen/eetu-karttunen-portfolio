@@ -5,7 +5,7 @@ function Portfolio() {
   
   return (
     <div className='portfolio'>
-      <h1>PORTFOLIO</h1>
+      <h1>Portfolio</h1>
     </div>
   );
 }

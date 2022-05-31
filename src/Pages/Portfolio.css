@@ -1,7 +1,74 @@
 .portfolio {
-    background-color: rgb(199, 63, 63);
+    background: rgb(235,235,240);
+    background: linear-gradient(180deg, rgba(235,235,240,1) 0%, rgba(224,224,236,1) 100%);
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    color: rgb(59, 157, 209);
+    
+}
+ul {
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+li {
+    font-size: 14px;
+    margin-right: 50px;
+    padding: 0.7;
+    border-radius: 10px;
+}
+li:active {
+    background-color: slateblue;
+    color: white;
+}
+
+.portfolio-container {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.portfolio-container img {
+    width: 150px;
+    height: 150px;
+    margin: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+p {
+    font-weight: 300;
+}
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn--primary {
+    background-color: var(--primary);
+    color: #ffffff;
+    border: 1px solid var(--primary)
+}
+
+.btn--outline {
+background-color: transparent;
+color: rgb(255, 255, 255);
+padding: 8px 20px;
+border: 1px solid var(--primary);
+transition: all 0.3s ease-out;
 }

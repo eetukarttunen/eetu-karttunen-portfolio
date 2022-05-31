@@ -1,64 +1,59 @@
 .navigation {
     width: 100%;
-    height: 80px;
+    height: 60px;
     background-color: transparent;
-    color: rgb(241, 245, 255);
+    color: rgb(59, 157, 209);
     position: fixed;
+    display: flex;
     top: 0;
     z-index: 999;
-    transition: all 1s ease;
+    transition: all 1s ease-in-out;
     justify-content: center;
     align-items: center;
 }
 .navigation-styling {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 0px 50px;
+    height: 80px;
+    max-width: 1500px;  
+    font-size: 1em;
 }
 
-
-.navigation-styling i {
-    color: rgb(241, 245, 255);
-}
-
-.navigation-styling i:hover {
-    color: rgb(64, 89, 143);
-    transition: all 0.5s ease-out;
-}
-
-.site-name:hover {
-    color: rgb(64, 89, 143);
-    transition: all 0.5s ease-out;
-}
-
-.right-icon:hover {
-    color: rgb(64, 89, 143);
-    transition: all 0.5s ease-out;
-}
-
-.navigation-left {
+.navibar-left-menu {
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
     display: flex;
     align-items: center;
-    font-size: 0.7em;
-}
-.navigation-right {
-    display: flex;
-    align-items: center; 
+  }
+
+.navibar-right-menu {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: end;
+    margin-right: 2rem;
 }
 
-.navi-menu {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    top: 60px;
-    left: -100%;
-    opacity: 1;
-    transition: all 0.5s ease;
+.fa-github, .fa-linkedin-in {
+    font-size: 1.5rem;
+    color: rgb(145, 145, 145);
 }
 
+.fa-github:hover {
+    color: #333333;
+    transition: all 0.5s ease-in-out;
+}
+
+.fa-linkedin-in:hover {
+    color: rgb(10, 102, 194);
+    transition: all 0.5s ease-in-out;
+}
 
 @media screen and (max-width: 900px) {
     .site-name:hover {
@@ -66,10 +61,6 @@
         transition: all 0s ease-out;
     }
     
-    .right-icon:hover {
-        color: rgb(241, 245, 255);
-        transition: all 0s ease-out;
-    }
     .navigation-styling i:hover {
         color: rgb(241, 245, 255);
         transition: all 0s ease-out;
