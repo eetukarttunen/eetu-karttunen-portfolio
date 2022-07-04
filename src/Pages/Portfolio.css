@@ -51,24 +51,19 @@ p {
     font-weight: 300;
 }
 
-.btn {
-    padding: 8px 20px;
-    border-radius: 2px;
-    outline: none;
-    border: none;
-    cursor: pointer;
+.icons-container {
+    margin-top: 60px;
+    display: flex;
+    gap: 25px;
+    flex-direction: row;
+    justify-content: center;
+    color:rgb(145, 145, 145);
+    font-size: 50px;
 }
 
-.btn--primary {
-    background-color: var(--primary);
-    color: #ffffff;
-    border: 1px solid var(--primary)
-}
-
-.btn--outline {
-background-color: transparent;
-color: rgb(255, 255, 255);
-padding: 8px 20px;
-border: 1px solid var(--primary);
-transition: all 0.3s ease-out;
+@media screen and (max-width: 800px) {
+    .icons-container {
+        
+        font-size: 25px;
+    }
 }
