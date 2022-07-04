@@ -19,13 +19,6 @@ function About() {
         In my previous position, I worked as a data engineer, which taught me a lot about modern data processing and the versatile use of data in software development. "
         highlight="Specialist"
       />
-      
-      <p>{'\n'}</p>
-      <Highlighted
-        text= "I'm also a master's student in Computer Science. In my studies, I focus on machine learning & software development." 
-        highlight="master's student"
-        >
-      </Highlighted>
       </div>
     </div>
   );
