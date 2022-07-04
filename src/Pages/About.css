@@ -1,4 +1,4 @@
-.portfolio {
+.about {
     background: rgb(235,235,240);
     background: linear-gradient(180deg, rgba(235,235,240,1) 0%, rgba(224,224,236,1) 100%);
     width: 100%;
@@ -7,8 +7,24 @@
     align-items: center;
     flex-direction: column;
     color: rgb(59, 157, 209);
-    
 }
+
+.about-text-container {
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #515151;
+}
+
+.special-text {
+    color: rgb(59, 157, 209);
+}
+
+mark {
+    background-color: transparent;
+    color: rgb(59, 157, 209);
+}
+
 ul {
     margin: 10px;
     padding: 0;
@@ -27,7 +43,7 @@ li:active {
     color: white;
 }
 
-.portfolio-container {
+.about-container {
     width: 70%;
     display: flex;
     align-items: center;
@@ -35,7 +51,7 @@ li:active {
     flex-wrap: wrap;
 }
 
-.portfolio-container img {
+.about-container img {
     width: 150px;
     height: 150px;
     margin: 10px 20px;
@@ -60,6 +76,14 @@ p {
     color:rgb(145, 145, 145);
     font-size: 50px;
 }
+
+.about h2 {
+    font-size: 50px;
+    margin-bottom: 0;
+    color: #3f3f3f;
+    cursor: default;
+}
+
 
 @media screen and (max-width: 800px) {
     .icons-container {
