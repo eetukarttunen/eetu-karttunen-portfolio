@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "./About.css";
 
 function About() {
@@ -8,13 +8,14 @@ function About() {
       <h2>About me</h2>
       <div className='about-text-container'>
       <Highlighted
-        text="Hello! Hello! My name is Eetu and I enjoy creating new things with code.
-        My interest in software development started back in high school when I decided to try coding mobile apps — coding gave me the spark to apply to study Computer Science!"
+        text="Hello! My name is Eetu and I enjoy creating new things with code.
+        My interest in software development started back in high school when I wrote my first lines of code. 
+        After high school, I ended up studying computer science, which was one of the best decicions of my life."
         highlight="Eetu"
       />
       <p>{'\n'}</p>
       <Highlighted
-        text="I have had the privilege of working versatilely in software development and data warehousing since the beginning of my studies. 
+        text="I've had the privilege of working versatilely in software development and data warehousing since the beginning of my studies. 
         I currently work as a Specialist in software development at Meita. 
         In my previous position, I worked as a data engineer, which taught me a lot about modern data processing and the versatile use of data in software development. "
         highlight="Specialist"

@@ -5,7 +5,9 @@ function Intro() {
   
   return (
     <div className="intro">
-      <div className="intro-left">
+      
+      <div className="intro-main">
+        <img src="./icons/intro.png"/>
         <h1 className="name">
           Eetu Karttunen.
         </h1>

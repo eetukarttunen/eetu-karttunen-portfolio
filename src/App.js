@@ -10,19 +10,8 @@ function App() {
   return (
     <div className="App">
       <Navigation/>
-      <div className='App-container'>
-        <div className="sections">
-          <section id="1">
-            <Intro/>
-          </section>
-          <section id="2">
-            <About/>
-          </section>
-          <section id="3">
-            <Resume/>
-          </section>
-        </div>
-      </div>
+      <Intro/>
+
     </div>
   );
 }

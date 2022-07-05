@@ -3,7 +3,7 @@
     height: 60px;
     background-color: transparent;
     color: rgb(59, 157, 209);
-    position: fixed;
+    position: absolute;
     display: flex;
     top: 0;
     z-index: 999;
@@ -42,7 +42,7 @@
 
 .fa-github, .fa-linkedin-in {
     font-size: 1.5rem;
-    color: rgb(145, 145, 145);
+    color: #3f3f3f;
 }
 
 .fa-github:hover {

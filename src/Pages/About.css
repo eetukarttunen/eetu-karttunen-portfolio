@@ -7,6 +7,7 @@
     align-items: center;
     flex-direction: column;
     color: rgb(59, 157, 209);
+    height: 100vh;
 }
 
 .about-text-container {
