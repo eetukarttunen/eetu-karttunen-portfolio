@@ -40,10 +40,19 @@
     color: #3f3f3f;
     cursor: default;
 }
-
 img {
     max-width: 300px;
+    max-height: 300px;
 }
+
+.img-border {
+
+    border-radius: 200px;
+    box-sizing: border-box;
+    background-color: rgb(59, 157, 209);
+    border: 4px solid rgb(59, 157, 209);
+}
+
 
 .developer-title {
     color: rgb(59, 157, 209);

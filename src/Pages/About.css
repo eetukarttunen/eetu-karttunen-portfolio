@@ -1,6 +1,4 @@
 .about {
-    background: rgb(235,235,240);
-    background: linear-gradient(180deg, rgba(235,235,240,1) 0%, rgba(224,224,236,1) 100%);
     width: 100%;
     display: flex;
     justify-content: center;
