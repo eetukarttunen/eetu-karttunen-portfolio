@@ -17,7 +17,7 @@ function About() {
       <Highlighted
         text="I've had the privilege of working versatilely in software development and data warehousing since the beginning of my studies. 
         I currently work as a Specialist in software development at Meita. 
-        In my previous position, I worked as a data engineer, which taught me a lot about modern data processing and the versatile use of data in software development. "
+        In my previous position, I worked as a data engineer, which taught me a lot about modern data processing and possibilities of data warehouse automation."
         highlight="Specialist"
       />
       </div>
