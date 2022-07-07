@@ -13,6 +13,7 @@
 .name {
     grid-column: 0;
     grid-row: 0;
+    padding-bottom: 0.1em;
 }
 
 .title {
@@ -55,8 +56,11 @@ img {
 
 
 .developer-title {
+    display: inline-block;
+    border-top: 2px solid black;
+    padding-top: 0.5em;
+    display: inline-block;
     color: rgb(59, 157, 209);
-    margin-top: 0;
     font-size: 20px;
     font-weight: 500;
     cursor: default;

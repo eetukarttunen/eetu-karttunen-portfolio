@@ -7,12 +7,14 @@ function Intro() {
     <div className="intro">
       
       <div className="intro-main">
-        <img className="img-border" src="./icons/eetu.png"/>
+        <img className="img-border" alt="portrait" src="./icons/eetu.png"/>
         <h1 className="name">
           Eetu Karttunen.
         </h1>
         <div className='developer-title'>
-          Software Developer
+          Full Stack Developer,
+          Runner,
+          Guitar builder
         </div>
       </div>
     </div>

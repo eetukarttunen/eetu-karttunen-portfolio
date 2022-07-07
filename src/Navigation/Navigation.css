@@ -40,9 +40,14 @@
     margin-right: 2rem;
 }
 
-.fa-github, .fa-linkedin-in {
+.fa-github, .fa-linkedin-in, .fa-twitter {
     font-size: 1.5rem;
     color: #3f3f3f;
+}
+
+.fa-twitter:hover {
+    color: #1DA1F2;
+    transition: all 0.5s ease-in-out;
 }
 
 .fa-github:hover {

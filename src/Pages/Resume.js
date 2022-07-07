@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React from 'react';
 import "./Resume.css";
 import 'font-awesome/css/font-awesome.min.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
