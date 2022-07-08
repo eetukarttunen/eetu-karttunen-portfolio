@@ -4,19 +4,18 @@ import "./Intro.css";
 function Intro() {
   
   return (
-    <div className="intro">
-      
-      <div className="intro-main">
-        <img className="img-border" alt="portrait" src="./icons/eetu.png"/>
-        <h1 className="name">
-          Eetu Karttunen.
-        </h1>
-        <div className='developer-title'>
-          Full Stack Developer,
-          Runner,
-          Guitar builder
+    <div className="i">
+      <div className="i-left">
+        <div className="i-left-wrapper">
+          <h1 className="i-name">Eetu Karttunen</h1>
+          <div className="i-title-item">Full Stack Developer</div>
         </div>
       </div>
+      <div className="i-right">
+      <div className="i-bg">
+        <img src={"./icons/eetu.png"} alt="portrait" className="i-img" />
+      </div>
+    </div>
     </div>
   );
 }

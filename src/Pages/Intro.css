@@ -1,3 +1,107 @@
+.i {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .i-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .i-right {
+    flex: 1;
+    position: relative;
+  }
+  
+  .i-left-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .i-intro {
+    font-size: 30px;
+    font-weight: 300;
+  }
+  
+  .i-name {
+    font-size: 60px;
+    cursor: default;
+  }
+  
+  .i-title-item {
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(59, 157, 209);
+    cursor: default;
+  }
+  
+  .i-scroll {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 20px;
+  }
+
+  .i-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 300px;
+    box-sizing: border-box;
+    background-color: rgb(59, 157, 209);
+    border: 4px solid rgb(59, 157, 209);
+  }
+
+  .i-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .i {
+      flex-direction: column;
+    }
+  
+    .i-left-wrapper {
+    
+      padding: 10px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 100%;
+    }
+  
+    .i-desc{
+      display: none;
+    }
+
+    .i-img {
+        max-width: 80%;
+        max-height: 80%;
+    }
+
+    .i-name {
+        font-size: 55px;
+    }
+
+    .i-title-item {
+        font-size: 25px;
+    }
+    
+  }
+
+
+/*
 .intro {
     display: flex;
     color: rgb(62, 64, 102);
@@ -65,33 +169,4 @@ img {
     font-weight: 500;
     cursor: default;
 }
-
-@media screen and (max-width: 1200px) {
-    .img-container {
-        width: 200px;
-        height: 200px;
-    } 
-    .intro-right {
-        display: none;
-    }
-
-  }
-
-@media screen and (max-width: 800px) {
-    .intro-main h1 {
-        font-size: 50px;
-    } 
-    .developer-title {
-        font-size: 20px;
-    } 
-
-}
-
-@media screen and (max-width: 450px) {
-    img {
-        max-width: 200px;
-        max-height: 200px;
-    }
-
-}
-
+*/
