@@ -1,14 +1,6 @@
 # Eetu Karttunen portfolio website
 
-This project is a portfolio website project based on React. My plan was to create a fully responsive one page website with scaling. I used scroll-snap and auto-scroll to make it easy to browse the website. This project is in progress at the moment.
-
-## Web page views
-
-- Intro
-- Portfolio
-- Technologies
-- Contact
-
+A portfolio website based on React. I planned to create an informative one-page website to show information about my skills and past projects. 
 
 ## Available Scripts
 ### `npm start`
