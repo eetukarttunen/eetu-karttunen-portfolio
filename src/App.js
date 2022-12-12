@@ -1,22 +1,21 @@
 import React from 'react';
 import './App.css';
 import Intro from './Components/Intro';
-
-import Navigation from './Navigation/Navigation.js';
+import About from './Components/About';
+import Career from './Components/Career';
+import Navigation from './Navigation/Navigation';
 
 
 function App() {
-     
+
   return (
     <div className="App">
-    <Navigation/>
+      <Navigation />
       <div className="App-max">
-      
-   
-      <Intro/>
-
-
-    </div>
+        <Intro />
+        <About/>
+        <Career />
+      </div>
     </div>
   );
 }

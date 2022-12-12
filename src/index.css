@@ -6,11 +6,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; 
-  /*background: hsla(231, 78%, 39%, 0.685);*/
-  background: #030303;
+  background: -webkit-linear-gradient(360deg, #f6fbfd 10%, #e8ebee 360%);
+  /*background: #030303;*/
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
