@@ -16,7 +16,7 @@ function Navigation() {
                 <a href="https://github.com/eetukarttunen" aria-label="linkedin" style={{color: "white"}}>
                     <i className="fab fa-github"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/eetu-karttunen" aria-label="linkedin" style={{color: "white"}}>
+                <a href="https://www.linkedin.com/in/eetukarttunen" aria-label="linkedin" style={{color: "white"}}>
                     <i className="fab fa-linkedin-in"></i>
                 </a>
                 </div>
