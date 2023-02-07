@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
 import Intro from './Components/Intro';
-import About from './Components/About';
-import Career from './Components/Career';
 import Navigation from './Navigation/Navigation';
 
 
