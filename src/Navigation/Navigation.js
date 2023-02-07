@@ -10,13 +10,13 @@ function Navigation() {
                 <div className='navibar-left-menu'></div>
                 
                 <div className='navibar-right-menu'>
-                <a href="https://twitter.com/eetudev" aria-label="twitter" style={{color: "white"}}>
+                <a href="https://www.youtube.com/watch?v=H8ZH_mkfPUY&ab_channel=EderKFCard" aria-label="twitter" style={{color: "white"}}>
                     <i className="fab fa-twitter"></i>
                 </a>
                 <a href="https://github.com/eetukarttunen" aria-label="linkedin" style={{color: "white"}}>
                     <i className="fab fa-github"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/eetu-karttunen-912631160/" aria-label="linkedin" style={{color: "white"}}>
+                <a href="https://www.linkedin.com/in/eetu-karttunen" aria-label="linkedin" style={{color: "white"}}>
                     <i className="fab fa-linkedin-in"></i>
                 </a>
                 </div>
