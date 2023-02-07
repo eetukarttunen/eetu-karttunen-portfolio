@@ -7,14 +7,11 @@ import Navigation from './Navigation/Navigation';
 
 
 function App() {
-
   return (
     <div className="App">
       <Navigation />
-      <div className="App-max">
+      <div className="App-header">
         <Intro />
-        <About/>
-        <Career />
       </div>
     </div>
   );

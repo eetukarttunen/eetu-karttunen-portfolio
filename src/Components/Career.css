@@ -1,3 +1,12 @@
+#inner1 {
+  float:left; 
+}
+
+#inner2{
+  float:left; 
+  clear: left;
+}
+
 .full-width-container {
   width: 1000px;
 }
@@ -69,19 +78,6 @@
   border-radius: 50%;
 }
 
-.tag {
-  color: black;
-  display: inline-block;
-  padding: 10px 15px 10px 15px;
-  border-radius: 8px 8px 8px 8px;
-  text-align: center;
-  position: relative;
-  margin: 5px 5px 5px 5px;
-  font-family: helvetica;
-  border: 2px solid rgba(170, 170, 170, 0.425);
-  font-weight: 700;
-  text-transform: uppercase;
-}
 
 @media screen and (max-width: 900px) {
   .c {
