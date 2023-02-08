@@ -6,7 +6,7 @@ function Intro() {
   return (
     <div className="profile">
       <img
-        src="./icons/eetu.png"
+        src="./icons/eetulapinakyva.png"
         alt="Profile"
         className="profile-image"
       />
