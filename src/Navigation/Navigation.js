@@ -1,30 +1,29 @@
-import React from 'react';
+import * as React from "react";
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 import './Navigation.css';
 
 function Navigation() {
-/*
 
-                <div className='navibar-right-menu'>
-                <a href="https://www.youtube.com/watch?v=H8ZH_mkfPUY&ab_channel=EderKFCard" aria-label="twitter" style={{color: "white"}}>
-                    <i className="fab fa-twitter"></i>
-                </a>
-                <a href="https://github.com/eetukarttunen" aria-label="linkedin" style={{color: "white"}}>
-                    <i className="fab fa-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/eetukarttunen" aria-label="linkedin" style={{color: "white"}}>
-                    <i className="fab fa-linkedin-in"></i>
-                </a>
-
-*/
-  return (
-    <div className="navigation">
-        <div className="navigation-container">
-            <div className="navigation-styling">
-                <h1 className='navibar-right-menu'></h1>
+    return (
+        <nav className="navigation">
+            <div className="navbar-container">
+                <Router>
+                    <Link to="/" className="navbar-brand">
+                        EK
+                    </Link>
+                    <div className="navbar-links">
+                        <Link to="/about" className="navbar-link">
+                            About
+                        </Link>
+                        <Link to="/contact" className="navbar-link">
+                            Contact
+                        </Link>
+                    </div>
+                </Router>
             </div>
-        </div>
-    </div>
-  );
+
+        </nav>
+    );
 }
 
 export default Navigation;
