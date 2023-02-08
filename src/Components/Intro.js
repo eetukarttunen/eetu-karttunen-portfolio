@@ -10,7 +10,7 @@ function Intro() {
       alt="Profile"
       className="profile-image"
     />
-    <h1 className="profile-name">Työmaa käynnissä :)</h1>
+    <h2 className="profile-name">Työmaa käynnissä</h2>
 
   </div>
   );

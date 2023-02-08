@@ -39,23 +39,11 @@
     font-size: 1em;
 }
 
-.navibar-left-menu {
-    justify-self: start;
-    margin-left: 20px;
-    cursor: pointer;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-  }
-
 .navibar-right-menu {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-gap: 10px;
-    list-style: none;
+    width: 50%;
+    height: 50%;
+    color: rgb(241, 245, 255);
     text-align: center;
-    justify-content: end;
-    margin-right: 2rem;
 }
 
 @media screen and (max-width: 900px) {
