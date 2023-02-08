@@ -13,6 +13,7 @@
   margin-top: 50px;
   object-fit: cover;
   margin: 0;
+  border: 3px solid white;
 }
 
 .profile-name {
