@@ -29,7 +29,6 @@ function Intro() {
         
       </div>
 
-      <i class="fa-solid fa-circle-arrow-down"></i>
 
     </div>
   );

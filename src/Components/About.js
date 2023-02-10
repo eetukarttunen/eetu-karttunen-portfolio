@@ -6,7 +6,7 @@ function About() {
   return (
     <div className="about">
       
-      <h2 className="profile-name">ABOUT</h2>
+      <h2 className="profile-name">About</h2>
 
     </div>
   );

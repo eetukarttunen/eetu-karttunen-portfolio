@@ -12,13 +12,13 @@ function Navigation() {
                         EK
                     </Link>
                     <div className="navbar-links">
+                        <Link to="/" className="navbar-link">
+                            Intro
+                        </Link>
                         <Link to="/about" className="navbar-link">
                             About
                         </Link>
-                        <Link to="/work" className="navbar-link">
-                            Work
-                        </Link>
-                        <Link to="/contact" className="navbar-link">
+                        <Link to="/sandbox" className="navbar-link">
                             Sandbox
                         </Link>
                     </div>
