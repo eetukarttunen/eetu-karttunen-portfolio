@@ -1,5 +1,5 @@
 import * as React from "react";
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Navigation.css';
 
 function Navigation() {
@@ -7,7 +7,7 @@ function Navigation() {
     return (
         <nav className="navigation">
             <div className="navbar-container">
-                <Router>
+              
                     <Link to="/" className="navbar-brand">
                         EK
                     </Link>
@@ -19,10 +19,10 @@ function Navigation() {
                             Work
                         </Link>
                         <Link to="/contact" className="navbar-link">
-                            Contact
+                            Sandbox
                         </Link>
                     </div>
-                </Router>
+     
             </div>
 
         </nav>
