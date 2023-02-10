@@ -15,6 +15,9 @@ function Navigation() {
                         <Link to="/about" className="navbar-link">
                             About
                         </Link>
+                        <Link to="/work" className="navbar-link">
+                            Work
+                        </Link>
                         <Link to="/contact" className="navbar-link">
                             Contact
                         </Link>

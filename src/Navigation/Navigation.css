@@ -1,6 +1,11 @@
-.fa-github, .fa-linkedin-in, .fa-twitter {
+.fa-github, .fa-linkedin-in, .fa-twitter, .fa-arrow-down, .fa-circle-arrow-down {
     font-size: 1.8rem;
     color: rgb(235, 235, 235);
+}
+
+.fa-circle-arrow-down {
+  position: absolute;
+  bottom: 10px;
 }
 
 .fa-twitter:hover {
@@ -19,6 +24,8 @@
 }
 
 .navigation {
+    width: 100%;
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;

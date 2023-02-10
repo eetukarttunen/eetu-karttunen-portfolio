@@ -26,9 +26,10 @@ function Intro() {
         <a href="https://www.linkedin.com/in/eetukarttunen" aria-label="linkedin" style={{ color: "white", textAlign: "center", padding: "0px 12px 0px 12px" }}>
           <i className="fab fa-linkedin-in"></i>
         </a>
+        
       </div>
 
-
+      <i class="fa-solid fa-circle-arrow-down"></i>
 
     </div>
   );
