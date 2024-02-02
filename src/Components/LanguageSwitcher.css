@@ -1,0 +1,11 @@
+.language-switcher {
+    margin-left: 1rem;
+    background-color: rgb(241, 245, 255);
+}
+
+select {
+    background-color: rgb(241, 245, 255);
+}
+select option {
+    background-color: rgb(241, 245, 255);
+}

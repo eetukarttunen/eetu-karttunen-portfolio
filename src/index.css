@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Sora");
 
+/*
+Use as colors:
+var(--dark-purple);
+var(--light-white);
+*/
+
+:root {
+  --dark-purple: #10101d;
+  --light-white: rgb(235, 235, 235);
+
+}
+
 body {
   position: relative;
   margin: 0;
@@ -12,19 +24,20 @@ body {
 }
 
 * {
-  background-color: #10101d;
+  background-color: var(--dark-purple);
+  font-family: 'Sora',
+  sans-serif;
 }
 
 h1 {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 20px;
-  color: rgb(235, 235, 235);;
+  color: var(--light-white);
 }
 
 p {
   font-size: 18px;
   line-height: 1.5;
-
-  color: rgb(235, 235, 235);
+  color: var(--light-white);
 }
