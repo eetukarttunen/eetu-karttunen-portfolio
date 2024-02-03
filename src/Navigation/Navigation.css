@@ -7,6 +7,7 @@
     padding: 1rem 0rem 1rem 0rem;
     background-color: rgb(241, 245, 255);
     color: #10101d;
+    z-index: 9999;
   }
   
   .navbar-container {
@@ -18,6 +19,7 @@
     max-width: 1024px;
     margin: 0 auto;
     padding: 0rem 1.5rem 0rem 1.5rem;
+    border: 1px solid green;
   }
   
   .navbar-brand {
@@ -37,9 +39,14 @@
   .navbar-link {
     background-color: rgb(241, 245, 255);
     margin-left: 1rem;
-    font-size: 1rem;
+    font-size: 0.9em;
     color: #10101d;
     text-decoration: none;
+  }
+
+  .navbar-link:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
   }
   
   @media (max-width: 767px) {

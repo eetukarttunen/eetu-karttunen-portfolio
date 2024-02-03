@@ -2,6 +2,7 @@
 import React from 'react';
 import './Intro.css';
 import { useLanguage } from './LanguageContext';
+import { Link } from 'react-router-dom';
 
 function Intro() {
   const { language } = useLanguage();
@@ -10,7 +11,7 @@ function Intro() {
   return (
     <div className="profile">
       <img src="./icons/eetulapinakyva.png" alt="Profile" className="profile-image" />
-      <h2 className="profile-name">{languageData.name}</h2>
+      <h1 className="profile-name">{languageData.name}</h1>
       <p className="profile-title">{languageData.title}</p>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
         <a href={languageData.github} aria-label="GitHub" style={{ color: "white", textAlign: "center", padding: "0px 12px 0px 12px" }}>
@@ -25,9 +26,9 @@ function Intro() {
       </div>
       <br/>
       <div className="button-container">
-      <button className='row-button'>{languageData.aboutButton}</button>
-      <button className='row-button'>{languageData.projectsButton}</button>
-      <button className='row-button'>{languageData.elementsButton}</button>
+      <Link className='row-button' to="/about">{languageData.aboutButton}</Link>
+      <Link className='row-button' to="/projects">{languageData.projectsButton}</Link>
+      <Link className='row-button' to="/demos">{languageData.elementsButton}</Link>
       </div>
     </div>
   );

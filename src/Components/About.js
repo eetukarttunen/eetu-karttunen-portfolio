@@ -4,9 +4,11 @@ import "./About.css";
 function About() {
 
   return (
-    <div className="about">
+    <div className="universal-page-container">
       
-      <h2 className="profile-name">About</h2>
+      <h1>About</h1>
+      <br/>
+      <p>Testitekstiä :D</p>
 
     </div>
   );

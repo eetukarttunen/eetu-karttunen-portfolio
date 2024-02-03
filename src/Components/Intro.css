@@ -80,7 +80,10 @@ bottom: 10px;
   background-color: var(--dark-purple);
   color: var(--light-white);
   border: 1px solid var(--light-white);
-  margin: 5px;
+  padding: 5px;
+  text-decoration: none;
+  margin: 0px 7px;
+  font-size: 0.8em;
 }
 
 .row-button:hover {

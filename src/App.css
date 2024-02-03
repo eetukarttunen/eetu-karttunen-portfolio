@@ -4,10 +4,28 @@
   flex-direction: column;
   min-height: 100vh;
 }
+/*
 .App-header {
   text-align: center;
   height: 100vh;
   max-width: 1024px;
   margin: auto;
-  /*border: 1px solid green;*/
+  border: 1px solid green;
+}
+*/
+.App-header {
+height: 100%;
+width: 100%;
+position: relative;
+/*background-color: green;*/
+}
+
+.universal-page-container {
+  border: 1px solid red;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0rem 1.5rem 0rem 1.5rem;
+  padding-top: 60px;
+  height: 100vh;
 }
