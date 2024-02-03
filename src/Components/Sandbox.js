@@ -10,7 +10,7 @@ function Sandbox() {
       <h1>Sandbox</h1>
 
 
-     
+
       <img
         src="./icons/dummy.jpg"
         alt="Profile"

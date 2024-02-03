@@ -21,11 +21,16 @@ position: relative;
 }
 
 .universal-page-container {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   width: 100%;
   max-width: 1024px;
   margin: 0 auto;
   padding: 0rem 1.5rem 0rem 1.5rem;
   padding-top: 60px;
   height: 100vh;
+  font-weight: 100;
+}
+
+.construction-site {
+  width: 40%;
 }

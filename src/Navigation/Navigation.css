@@ -6,7 +6,7 @@
     align-items: center;
     padding: 1rem 0rem 1rem 0rem;
     background-color: rgb(241, 245, 255);
-    color: #10101d;
+    color: var(--dark-purple);
     z-index: 9999;
   }
   
@@ -19,14 +19,14 @@
     max-width: 1024px;
     margin: 0 auto;
     padding: 0rem 1.5rem 0rem 1.5rem;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
   }
   
   .navbar-brand {
     background-color: rgb(241, 245, 255);
     font-size: 1.5rem;
     font-weight: bold;
-    color: #10101d;
+    color: var(--dark-purple);
     text-decoration: none;
   }
   
@@ -40,7 +40,7 @@
     background-color: rgb(241, 245, 255);
     margin-left: 1rem;
     font-size: 0.9em;
-    color: #10101d;
+    color: var(--dark-purple);
     text-decoration: none;
   }
 

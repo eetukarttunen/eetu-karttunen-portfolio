@@ -3,7 +3,7 @@ import React from 'react';
 import { useLanguage } from './LanguageContext';
 import "./LanguageSwitcher.css";
 
-const LanguageSwitcher = () => {
+function LanguageSwitcher () {
   const { language, changeLanguage } = useLanguage();
 
   const handleLanguageChange = (newLanguage) => {

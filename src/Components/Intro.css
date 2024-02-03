@@ -80,10 +80,11 @@ bottom: 10px;
   background-color: var(--dark-purple);
   color: var(--light-white);
   border: 1px solid var(--light-white);
-  padding: 5px;
+  padding: 8px;
   text-decoration: none;
   margin: 0px 7px;
   font-size: 0.8em;
+  border-radius: 99px;
 }
 
 .row-button:hover {
@@ -98,3 +99,4 @@ bottom: 10px;
   justify-content: space-between; /* Adjust as needed */
   flex-wrap: wrap;
 }
+

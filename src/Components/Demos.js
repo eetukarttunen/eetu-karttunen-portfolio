@@ -2,18 +2,24 @@ import React from 'react';
 import "./About.css";
 import { useLanguage } from './LanguageContext';
 
-function About() {
+function Demos() {
   const { language } = useLanguage();
   const languageData = require(`../languages/${language}.json`);
 
   return (
     <div className="universal-page-container">
       
-      <h1>{languageData.aboutText}</h1>
-      <p>{languageData.aboutParagraph}</p>
+      <h1>{languageData.demosText}</h1>
+      <p>{languageData.demosParagraph}</p>
+
+      <img
+        class="construction-site"
+        src="./icons/dummy.jpg"
+        alt="Profile"
+      />
 
     </div>
   );
 }
 
-export default About;
+export default Demos;

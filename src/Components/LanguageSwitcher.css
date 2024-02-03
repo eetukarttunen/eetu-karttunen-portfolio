@@ -5,6 +5,7 @@
 
 select {
     background-color: rgb(241, 245, 255);
+    border-radius: 99px;
 }
 select option {
     background-color: rgb(241, 245, 255);

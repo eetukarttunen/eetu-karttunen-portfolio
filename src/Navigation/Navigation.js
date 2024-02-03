@@ -3,6 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import LanguageSwitcher from '../Components/LanguageSwitcher';
 import { useLanguage } from '../Components/LanguageContext';
+import DarkModeSwitcher from '../Components/DarkModeSwitch';
 import './Navigation.css';
 
 const Navigation = () => {
@@ -23,10 +24,11 @@ const Navigation = () => {
             {languageData.projectsText}
           </Link>
           <Link to="/demos" className="navbar-link">
-            {languageData.elementsText}
+            {languageData.demosText}
           </Link>
           <br />
           <LanguageSwitcher />
+          <br/>
         </div>
       </div>
     </nav>

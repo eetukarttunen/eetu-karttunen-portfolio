@@ -28,7 +28,7 @@ function Intro() {
       <div className="button-container">
       <Link className='row-button' to="/about">{languageData.aboutButton}</Link>
       <Link className='row-button' to="/projects">{languageData.projectsButton}</Link>
-      <Link className='row-button' to="/demos">{languageData.elementsButton}</Link>
+      <Link className='row-button' to="/demos">{languageData.demosButton}</Link>
       </div>
     </div>
   );

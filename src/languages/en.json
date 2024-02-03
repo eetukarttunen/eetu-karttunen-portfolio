@@ -7,10 +7,13 @@
     "projectsText": "Projects",
     "aboutText": "About",
     "contactText": "Contact",
-    "elementsText": "Demos",
+    "demosText": "Demos",
     "projectsButton": "Projects",
     "aboutButton": "About",
     "contactButton": "Contact",
-    "elementsButton": "Demos"
+    "demosButton": "Demos",
+    "aboutParagraph": "Here will be text in english",
+    "projectsParagraph": "On this page, I showcase some of my most recent leisure projects, which I have independently developed to everyday tasks easier. Additionally, there are projects I've been invited to contribute to as a developer. If you are interested in hearing about my previous professional projects, feel free to reach out to me via LinkedIn.",
+    "demosParagraph": "As you may notice, there is currently an ongoing construction on this page. If you are interested in seeing some examples of my work, I recommend visiting the 'Projects' page, where you can find some tangible examples."
   }
   

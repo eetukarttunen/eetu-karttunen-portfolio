@@ -22,7 +22,7 @@ body {
 }
 
 * {
-  background-color: var(--dark-purple);
+  
 
 }
 
@@ -36,6 +36,7 @@ h1 {
 h1, h2, h3, h4, h5 {
   font-family: 'Sora',
     sans-serif;
+    color: var(--light-white)
 }
 
 p {
@@ -48,3 +49,4 @@ p {
 a {
   font-family: Arial, Helvetica, sans-serif;
 }
+
