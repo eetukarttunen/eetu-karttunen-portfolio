@@ -1,52 +1,78 @@
-/* YourApp.css or global.css */
-.switch {
-    position: relative;
-    display: inline-block;
-    width: 50px;
-    height: 20px;
-    margin-left: 1rem;
-  }
-  
-  /* Hide default HTML checkbox */
-  .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
-  /* The slider */
-  .switch .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    transition: .4s;
-  }
-  
-  .switch .slider:before {
-    position: absolute;
-    content: "";
-    height: 13px;
-    width: 13px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    transition: .4s;
-  }
-  
-  .switch input:checked + .slider {
-    background-color: #2196F3;
-  }
-  
-  .switch input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
-  }
-  
-  .switch input:checked + .slider:before {
-    transform: translateX(26px);
-  }
+/*
+--darkest-grey: #111;
+--dark-grey: #141414;
+--dark-purple: #10101d;
+--light-white: rgb(235, 235, 235);
+*/
 
-  
+/* DarkModeSwitch.css */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-left: 1em;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #111; /* Match the background color from your example */
+  border-radius: 34px;
+  transition: background-color 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px; /* Add padding to match your example */
+}
+
+.slider i {
+  color: #f1c40f; /* Match the moon icon color */
+}
+
+.slider i.sun {
+  order: 1; /* Sun icon on the right by default */
+}
+
+.slider:before {
+  content: '';
+  height: 22px; /* Adjusted size to match your example */
+  width: 22px; /* Adjusted size to match your example */
+  background-color: rgb(235, 235, 235);
+  border-radius: 50%;
+  transition: transform 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #555; /* Match the checked background color */
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+  background-color: #111;
+}
+
+
+
+.dark-mode .slider i {
+  position: absolute;
+  color: #f39c12; /* Match the sun icon color in dark mode */
+}
+
+.dark-mode .slider i.sun {
+  order: -1; /* Sun icon on the left when dark mode is enabled */
+}
+
+.dark-mode input:checked + .slider {
+  background-color: rgb(235, 235, 235); /* Match the checked background color in dark mode */
+}

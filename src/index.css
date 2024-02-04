@@ -7,8 +7,11 @@ var(--light-white);
 */
 
 :root {
+  --darkest-grey: #111;
+  --dark-grey: #141414;
   --dark-purple: #10101d;
   --light-white: rgb(235, 235, 235);
+  --static-light-white: rgb(235, 235, 235);
 
 }
 
@@ -17,7 +20,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; 
-  background: -webkit-linear-gradient(360deg, #f6fbfd 10%, #e8ebee 360%);
+  background-color: var(--dark-grey);
   /*background: #030303;*/
 }
 
@@ -30,13 +33,13 @@ h1 {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 20px;
-  color: var(--light-white);
+  color: var(--dark-purple);
 }
 
 h1, h2, h3, h4, h5 {
   font-family: 'Sora',
     sans-serif;
-    color: var(--light-white)
+    color: var(--light-white);
 }
 
 p {

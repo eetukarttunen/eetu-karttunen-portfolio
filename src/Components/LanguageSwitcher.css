@@ -1,12 +1,12 @@
 .language-switcher {
     margin-left: 1rem;
-    background-color: rgb(241, 245, 255);
+    background-color: transparent;
 }
 
 select {
-    background-color: rgb(241, 245, 255);
+    background-color: var(--static-light-white);
     border-radius: 99px;
 }
 select option {
-    background-color: rgb(241, 245, 255);
+    background-color: var(--static-light-white);
 }

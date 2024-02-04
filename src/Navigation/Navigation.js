@@ -17,9 +17,6 @@ const Navigation = () => {
           EK
         </Link>
         <div className="navbar-links">
-          <Link to="/about" className="navbar-link">
-            {languageData.aboutText}
-          </Link>
           <Link to="/projects" className="navbar-link">
             {languageData.projectsText}
           </Link>
@@ -29,6 +26,7 @@ const Navigation = () => {
           <br />
           <LanguageSwitcher />
           <br/>
+          <DarkModeSwitcher/>
         </div>
       </div>
     </nav>
