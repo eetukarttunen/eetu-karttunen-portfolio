@@ -22,7 +22,6 @@ position: relative;
 
 .universal-page-container {
   /*border: 1px solid red;*/
-  width: 100%;
   max-width: 1024px;
   margin: 0 auto;
   padding: 0rem 1.5rem 0rem 1.5rem;
