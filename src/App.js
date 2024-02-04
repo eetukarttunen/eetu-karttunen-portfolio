@@ -1,16 +1,28 @@
+// src/App.js
 import React from 'react';
-import './App.css';
-import Intro from './Components/Intro';
+import { Routes, Route } from 'react-router-dom';
 import Navigation from './Navigation/Navigation';
-
+import Intro from './Components/Intro';
+/*import About from './Components/About';*/
+import Projects from './Components/Projects';
+import Demos from './Components/Demos';
+import { LanguageProvider } from './Components/LanguageContext';
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <div className="App-header">
-        <Intro />
+    <LanguageProvider>
+      <div className="App">
+        <Navigation />
+        <div className="App-header">
+          <Routes>
+            <Route path="/" element={<Intro />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/demos" element={<Demos />} />
+          </Routes>
+        </div>
       </div>
-    </div>
+    </LanguageProvider>
   );
 }
 

@@ -1,29 +1,36 @@
-import * as React from "react";
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+// src/Navigation/Navigation.js
+import React from 'react';
+import { Link } from 'react-router-dom';
+import LanguageSwitcher from '../Components/LanguageSwitcher';
+import { useLanguage } from '../Components/LanguageContext';
+import DarkModeSwitcher from '../Components/DarkModeSwitch';
 import './Navigation.css';
 
-function Navigation() {
+const Navigation = () => {
+  const { language } = useLanguage();
+  const languageData = require(`../languages/${language}.json`);
 
-    return (
-        <nav className="navigation">
-            <div className="navbar-container">
-                <Router>
-                    <Link to="/" className="navbar-brand">
-                        EK
-                    </Link>
-                    <div className="navbar-links">
-                        <Link to="/about" className="navbar-link">
-                            About
-                        </Link>
-                        <Link to="/contact" className="navbar-link">
-                            Contact
-                        </Link>
-                    </div>
-                </Router>
-            </div>
-
-        </nav>
-    );
-}
+  return (
+    <nav className="navigation">
+      <div className="navbar-container">
+        <Link to="/" className="navbar-brand">
+          EK
+        </Link>
+        <div className="navbar-links">
+          <Link to="/projects" className="navbar-link">
+            {languageData.projectsText}
+          </Link>
+          <Link to="/demos" className="navbar-link">
+            {languageData.demosText}
+          </Link>
+          <br />
+          <LanguageSwitcher />
+          <br/>
+          <DarkModeSwitcher/>
+        </div>
+      </div>
+    </nav>
+  );
+};
 
 export default Navigation;

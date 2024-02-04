@@ -1,3 +1,10 @@
+
+/*
+Use as colors:
+var(--dark-purple)
+var(--light-white)
+*/
+
 .profile {
   display: flex;
   flex-direction: column;
@@ -13,18 +20,18 @@
   margin-top: 50px;
   object-fit: cover;
   margin: 0;
-  border: 3px solid white;
+  border: 3px solid var(--light-white);
 }
 
 .profile-name {
-  color: rgb(235, 235, 235);
+  color: var(--light-white);
   font-size: 36px;
   margin-bottom: 0;
 }
 
 .profile-title {
   font-size: 20px;
-  color: rgb(235, 235, 235);
+   color: var(--light-white);
   font-weight: 400;
   text-align: center;
 }
@@ -43,3 +50,77 @@
     font-size: 18px;
   }
 }
+
+.fa-github, .fa-linkedin-in, .fa-envelope, .fa-arrow-down, .fa-circle-arrow-down {
+  font-size: 1.8rem;
+  color: var(--light-white);
+}
+
+.fa-circle-arrow-down {
+position: absolute;
+bottom: 10px;
+}
+
+.fa-twitter:hover {
+  color: #1DA1F2;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa-github:hover {
+  color: #333333;
+  transition: all 0.5s ease-in-out;
+}
+
+i.fa.fa-envelope:hover {
+  color: #333333;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa-linkedin-in:hover {
+  color: rgb(30, 112, 194);
+  transition: all 0.5s ease-in-out;
+}
+
+.row-button {
+  background-color: transparent;
+  color: var(--light-white);
+  border: 1px solid var(--light-white);
+  padding: 8px;
+  text-decoration: none;
+  margin: 0px 7px;
+  border-radius: 99px;
+}
+
+a.row-button:hover {
+  background-color: var(--light-white);
+  color: var(--darkest-grey);
+  border: 1px solid var(--light-white);
+}
+
+@media (max-width: 767px) {
+  .row-button:hover {
+    background-color: var(--dark-grey);
+    color: var(--light-white);
+    border: 1px solid var(--light-white);
+  }
+    
+    .fa-twitter:hover {
+      color: var(--light-white);
+    }
+    
+    .fa-github:hover {
+      color: var(--light-white);
+    }
+    
+    .fa-linkedin-in:hover {
+      color: var(--light-white);
+    }
+}
+
+/* src/styles/buttons.css */
+.button-container {
+  display: flex;
+  justify-content: space-between; /* Adjust as needed */
+  flex-wrap: wrap;
+}
+
