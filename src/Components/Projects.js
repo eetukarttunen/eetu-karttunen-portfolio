@@ -15,6 +15,7 @@ function Projects() {
       <h2>{languageData.opiskelijaruokalistatHeading}</h2>
       <h3>{languageData.opiskelijaruokalistatDetails}</h3>
       <img
+        className='project-picture'
         src="./icons/opiskelijaruokalistat.png"
         alt="Example picture of opiskelijaruokalistat web application."
       />
