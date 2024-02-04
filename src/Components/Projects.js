@@ -15,9 +15,9 @@ function Projects() {
       <h2>{languageData.opiskelijaruokalistatHeading}</h2>
       <h3>{languageData.opiskelijaruokalistatDetails}</h3>
       <img
-        className='project-picture'
+        className='mobile-view'
         src="./icons/opiskelijaruokalistat.png"
-        alt="Example picture of opiskelijaruokalistat web application."
+        alt="Example picture of opiskelijaruokalistat web application"
       />
       <p>{languageData.opiskelijaruokalistatDescription}</p>
 
@@ -26,7 +26,7 @@ function Projects() {
       <img
         className='project-picture'
         src="./icons/atkytp.png"
-        alt="Example picture of opiskelijaruokalistat web application."
+        alt="Example picture of ATK-YTP website"
       />
       <p>{languageData.atkytpDescription}</p>
       <br/>

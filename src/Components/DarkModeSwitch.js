@@ -3,12 +3,13 @@ import React, { useState, useEffect } from 'react';
 import './DarkModeSwitch.css';
 
 const DarkModeSwitch = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
   const [colors, setColors] = useState({
     darkGrey: '#141414',
     lightWhite: 'rgb(235, 235, 235)',
     darkestGrey: '#111',
   });
+  console.log(isDarkMode)
 
   useEffect(() => {
     // Retrieve dark mode preference from local storage on component mount
