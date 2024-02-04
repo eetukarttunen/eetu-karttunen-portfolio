@@ -12,6 +12,12 @@
     "demosButton": "Koodidemoja",
     "aboutParagraph": "Tänne tulee tekstiä Suomeksi",
     "projectsParagraph": "Täällä sivulla esittelen tuoreimpia vapaa-ajan projektejani, jotka olen toteuttanut itsenäisesti helpottaakseni arjen askareita, sekä projekteja, joihin minut on pyydetty mukaan kehittäjäksi. Mikäli olet kiinnostunut tutustumaan aikaisempiin työelämän projekteihini, otathan yhteyttä minuun esimerkiksi LinkedInin kautta.",
-    "demosParagraph": "Kuten voit huomata, tällä sivulla on parhaillaan meneillään työmaa. Jos olet kiinnostunut näkemään jotain konkreettista, suosittelen vierailemaan 'Projekti'-sivulla, jossa on näkyvillä hieman konkreettisia esimerkkejä."
+    "demosParagraph": "Kuten voit huomata, tällä sivulla on parhaillaan meneillään työmaa. Jos olet kiinnostunut näkemään jotain konkreettista, suosittelen vierailemaan 'Projekti'-sivulla, jossa on näkyvillä hieman konkreettisia esimerkkejä.",
+    "opiskelijaruokalistatHeading": "Opiskelijaruokalistat - verkkosovellus",
+    "opiskelijaruokalistatDetails": "Päivittäinen käyttäjämäärä: ~ 20 käyttäjää.",
+    "opiskelijaruokalistatDescription": "Tässä projektissa yhdistin joensuun alueen kaikkien opiskelijaruokaloiden listat näkyviin yhteen näkymään helpottamaan mieleisen opiskelijaruoan valintaa arkipäivisin. Yhteistä näkymää kaikille opiskelijaruokaloille ei ollut saatavilla, joten päätin ryhtyä toimeen ja toteuttaa tämän kaveriporukan ja itseni käyttöön. Verkkosovellus sisältää erillisen frontendin ja backendin. Backend hakee jokaisen ruokalan datan Fazer & CO. (Compass Group) API:a hyödyntäen. Frontend huolehtii pääasiassa datan esittämisestä. Verkkosovellus on suunniteltu ensisijaisesti mobiilikäyttöön, mutta toimii hyvin myös muilla laitteilla verkkoselaimen avulla.",
+    "atkytpHeading": "ATK-YTP tapahtumasivusto",
+    "atkytpDetails": "Käyttäjämäärä tapahtuman aikana ~ 350 käyttäjää",
+    "atkytpDescription": "Tässä projektissa toimin kolmihenkisen kehitystiimin jäsenenä, suunnitellen ja kehittäen Automaattisen Tietojenkäsittelyn Yhteistoimintapäivien (ATK-YTP) tapahtumasivustoa. Verkkosivuston pääasiallinen tehtävä oli auttaa tapahtumaan osallistujaa löytämään tietoa tapahtumasta, aikatauluista sekä Joensuusta tapahtumakaupunkina. Sivusto sisälsi myös Leaflet-kartan, joka perustui koordinaatteihin ja näytti tapahtumapäivien aktiviteettien sijainnit."
   }
   
