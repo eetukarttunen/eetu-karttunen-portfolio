@@ -1,6 +1,6 @@
 # Eetu Karttunen Portfolio Website
 
-Welcome to my portfolio website! This project is based on React and aims to showcase my skills and past experience in an informative and interactive one-page layout.
+Welcome to my portfolio website! This project is based on React and aims to showcase my skills and past experience in an informative and interactive way.
 
 ## Features
 
