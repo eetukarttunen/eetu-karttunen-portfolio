@@ -28,14 +28,14 @@ const DarkModeSwitch = () => {
   const updateColors = (isDarkMode) => {
     if (isDarkMode) {
       setColors({
-        darkGrey: '#141414',
+        darkGrey: '#151a21',
         lightWhite: 'rgb(235, 235, 235)',
         darkestGrey: '#111',
       });
     } else {
       setColors({
         darkGrey: 'rgb(235, 235, 235)',
-        lightWhite: '#141414',
+        lightWhite: '#151a21',
         darkestGrey: '#fff',
       });
     }

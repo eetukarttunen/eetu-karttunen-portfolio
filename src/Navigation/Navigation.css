@@ -53,6 +53,7 @@ var(--light-white);
   .navbar-link:hover {
     text-decoration: underline;
     text-decoration-thickness: 1.5px;
+    transition: all 0.5s ease-in-out;
   }
   
   @media (max-width: 767px) {

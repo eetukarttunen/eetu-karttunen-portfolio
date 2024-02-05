@@ -5,7 +5,6 @@
 
 select {
     background-color: var(--static-light-white);
-    border-radius: 99px;
 }
 select option {
     background-color: var(--static-light-white);

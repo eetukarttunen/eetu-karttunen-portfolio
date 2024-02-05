@@ -61,18 +61,13 @@ position: absolute;
 bottom: 10px;
 }
 
-.fa-twitter:hover {
-  color: #1DA1F2;
-  transition: all 0.5s ease-in-out;
-}
-
 .fa-github:hover {
-  color: #333333;
+  color: #3004dc;
   transition: all 0.5s ease-in-out;
 }
 
 i.fa.fa-envelope:hover {
-  color: #333333;
+  color: #3004dc;
   transition: all 0.5s ease-in-out;
 }
 
@@ -82,20 +77,21 @@ i.fa.fa-envelope:hover {
 }
 
 .row-button {
-  background-color: transparent;
-  color: var(--light-white);
-  border: 1px solid var(--light-white);
+  background-color: #3004dc;
+  color: var(--static-light-white);
   padding: 8px;
   text-decoration: none;
   margin: 0px 7px;
-  border-radius: 99px;
+  border-radius: 0px;
 }
 
 a.row-button:hover {
+  transition: all 0.5s ease-in-out;
   background-color: var(--light-white);
   color: var(--darkest-grey);
-  border: 1px solid var(--light-white);
+
 }
+
 
 @media (max-width: 767px) {
   .row-button:hover {
