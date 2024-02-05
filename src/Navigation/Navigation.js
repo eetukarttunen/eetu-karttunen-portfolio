@@ -8,7 +8,7 @@ import './Navigation.css';
 
 const Navigation = () => {
   const { language } = useLanguage();
-  const languageData = require(`../Languages/${language}.json`);
+  const languageData = require(`../languages/${language}.json`);
 
   return (
     <nav className="navigation">

@@ -4,7 +4,7 @@ import { useLanguage } from './LanguageContext';
 
 function Projects() {
   const { language } = useLanguage();
-  const languageData = require(`../Languages/${language}.json`);
+  const languageData = require(`../languages/${language}.json`);
 
   return (
     <div className="universal-page-container">
