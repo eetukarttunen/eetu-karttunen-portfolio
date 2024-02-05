@@ -14,10 +14,23 @@
     "projectsParagraph": "Täällä sivulla esittelen tuoreimpia vapaa-ajan projektejani, jotka olen toteuttanut itsenäisesti helpottaakseni arjen askareita, sekä projekteja, joihin minut on pyydetty mukaan kehittäjäksi. Mikäli olet kiinnostunut tutustumaan aikaisempiin työelämän projekteihini, otathan yhteyttä minuun esimerkiksi LinkedInin kautta.",
     "demosParagraph": "Kuten voit huomata, tällä sivulla on parhaillaan meneillään työmaa. Jos olet kiinnostunut näkemään jotain konkreettista, suosittelen vierailemaan 'Projekti'-sivulla, jossa on näkyvillä hieman konkreettisia esimerkkejä.",
     "opiskelijaruokalistatHeading": "Opiskelijaruokalistat - verkkosovellus",
-    "opiskelijaruokalistatDetails": "Päivittäinen käyttäjämäärä: ~ 20 käyttäjää.",
+    "opiskelijaruokalistatDetails": "Käyttäjämäärä: ~ 10-40 käyttäjää päivittäin",
     "opiskelijaruokalistatDescription": "Tässä projektissa yhdistin joensuun alueen kaikkien opiskelijaruokaloiden listat näkyviin yhteen näkymään helpottamaan mieleisen opiskelijaruoan valintaa arkipäivisin. Yhteistä näkymää kaikille opiskelijaruokaloille ei ollut saatavilla, joten päätin ryhtyä toimeen ja toteuttaa tämän kaveriporukan ja itseni käyttöön. Verkkosovellus sisältää erillisen frontendin ja backendin. Backend hakee jokaisen ruokalan datan Fazer & CO. (Compass Group) API:a hyödyntäen. Frontend huolehtii pääasiassa datan esittämisestä. Verkkosovellus on suunniteltu ensisijaisesti mobiilikäyttöön, mutta toimii hyvin myös muilla laitteilla verkkoselaimen avulla.",
     "atkytpHeading": "ATK-YTP tapahtumasivusto",
-    "atkytpDetails": "Käyttäjämäärä tapahtuman aikana ~ 350 käyttäjää",
-    "atkytpDescription": "Tässä projektissa toimin kolmihenkisen kehitystiimin jäsenenä, suunnitellen ja kehittäen Automaattisen Tietojenkäsittelyn Yhteistoimintapäivien (ATK-YTP) tapahtumasivustoa. Verkkosivuston pääasiallinen tehtävä oli auttaa tapahtumaan osallistujaa löytämään tietoa tapahtumasta, aikatauluista sekä Joensuusta tapahtumakaupunkina. Sivusto sisälsi myös Leaflet-kartan, joka perustui koordinaatteihin ja näytti tapahtumapäivien aktiviteettien sijainnit."
+    "atkytpDetails": "Käyttäjämäärä: ~ 350 käyttäjää tapahtuman aikana ",
+    "atkytpDescription": "Tässä projektissa toimin kolmihenkisen kehitystiimin jäsenenä, suunnitellen ja kehittäen Automaattisen Tietojenkäsittelyn Yhteistoimintapäivien (ATK-YTP) tapahtumasivustoa. Verkkosivuston pääasiallinen tehtävä oli auttaa tapahtumaan osallistujaa löytämään tietoa tapahtumasta, aikatauluista sekä Joensuusta tapahtumakaupunkina. Sivusto sisälsi myös Leaflet-kartan, joka perustui koordinaatteihin ja näytti tapahtumapäivien aktiviteettien sijainnit.",
+    "koedaHeading": "Koeda Consulting Oy - verkkosivuston uudelleensuunnittelu",
+    "koedaDetails": "Käyttäjämäärä: Ei julkinen",
+    "koedaDescription": "Tässä projektissa suunnittelin ja toteutin Koeda Consulting Oy:n verkkosivuston uudelleen, keskittyen erityisesti käytettävyyden ja intuitiivisuuden parantamiseen. Alla olevissa kuvissa on muutamia ennen-jälkeen-esimerkkejä muutoksista, joista on erityisesti mahdollista huomata värimaailman yhdenmukaistaminen, komponenttien paranneltu skaalautuvuus sekä luettavuuden parantaminen.",
+    "opiskelijaruokalistatPictureDescription": "Esimerkki verkkosovelluksen käytöstä mobiilissa (Matalaresoluutio GIF)",
+    "KoedaPictureDescription1": "Kuva 1. Uusi versio verkkosivustosta",
+    "KoedaPictureDescription2": "Kuva 2. Alkuperäinen verkkosivusto",
+    "KoedaPictureDescription3": "Kuva 3. Uusi versio footerista",
+    "KoedaPictureDescription4": "Kuva 4. Alkuperäinen footer",
+    "KoedaPictureDescription5": "Kuva 5. Uusi versio mobiilinavigaatiosta",
+    "KoedaPictureDescription6": "Kuva 6. Alkuperäinen mobiilinavigaatio",
+    "atkytpPictureDescription": "Kuva 1. ATK-YTP tapahtumasivuston etusivu",
+    "atkytpPictureDescription2": "Kuva 2. ATK-YTP mobiilinäkymän esimerkki"
+  
   }
   
