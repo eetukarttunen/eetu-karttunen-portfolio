@@ -1,15 +1,13 @@
 import React from 'react';
-import "./Projects.css";
+import './Projects.css';
 import { useLanguage } from './LanguageContext';
-
 
 function Projects() {
   const { language } = useLanguage();
-  const languageData = require(`../languages/${language}.json`);
+  const languageData = require(`../Languages/${language}.json`);
 
   return (
     <div className="universal-page-container">
-
       <h1>{languageData.projectsText}</h1>
       <p>{languageData.projectsParagraph}</p>
 
@@ -19,7 +17,7 @@ function Projects() {
       <img
         className='mobile-view'
         src="./icons/opiskelijaruokalistatgif.gif"
-        alt="Example picture of opiskelijaruokalistat web application"
+        alt="An example of the Opiskelijaruokalistat web application"
       />
       <p>{languageData.opiskelijaruokalistatPictureDescription}</p>
 
@@ -29,55 +27,53 @@ function Projects() {
       <img
         className='project-picture'
         src="./icons/koedanew.png"
-        alt="Example picture of koeda consulting new landing page"
+        alt="An example of the Koeda Consulting new landing page"
       />
       <p>{languageData.KoedaPictureDescription1}</p>
       <img
         className='project-picture'
         src="./icons/koedaold.png"
-        alt="Example picture of koeda consulting old landing page"
+        alt="An example of the Koeda Consulting old landing page"
       />
       <p>{languageData.KoedaPictureDescription2}</p>
       <img
         className='project-picture'
         src="./icons/koedanewfooter.png"
-        alt="Example picture of koeda consulting new footer"
+        alt="An example of the Koeda Consulting new footer"
       />
       <p>{languageData.KoedaPictureDescription3}</p>
       <img
         className='project-picture'
         src="./icons/koedaoldfooter.png"
-        alt="Example picture of koeda consulting old footer"
+        alt="An example of the Koeda Consulting old footer"
       />
       <p>{languageData.KoedaPictureDescription4}</p>
       <img
         className='mobile-view'
         src="./icons/koedanewmobilemenu.png"
-        alt="Example picture of koeda consulting new mobile navigation"
+        alt="An example of the Koeda Consulting new mobile navigation"
       />
-
       <p>{languageData.KoedaPictureDescription5}</p>
       <img
         className='mobile-view'
         src="./icons/koedaoldmobilemenu.png"
-        alt="Example picture of koeda consulting old mobile navigation"
+        alt="An example of the Koeda Consulting old mobile navigation"
       />
       <p>{languageData.KoedaPictureDescription6}</p>
 
       <h2>{languageData.atkytpHeading}</h2>
       <h3>{languageData.atkytpDetails}</h3>
       <p>{languageData.atkytpDescription}</p>
-
       <img
         className='project-picture'
         src="./icons/atkytp.png"
-        alt="Example picture of ATK-YTP website"
+        alt="An example of the ATK-YTP website"
       />
       <p>{languageData.atkytpPictureDescription}</p>
       <img
         className='mobile-view'
         src="./icons/atkytpmobile.png"
-        alt="Example picture of ATK-YTP website mobile view"
+        alt="An example of the ATK-YTP website mobile view"
       />
       <p>{languageData.atkytpPictureDescription2}</p>
 

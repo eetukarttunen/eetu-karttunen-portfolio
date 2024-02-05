@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function Intro() {
   const { language } = useLanguage();
-  const languageData = require(`../languages/${language}.json`);
+  const languageData = require(`../Languages/${language}.json`);
 
   return (
     <div className="profile">
