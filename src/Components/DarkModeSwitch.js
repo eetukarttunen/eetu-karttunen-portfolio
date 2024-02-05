@@ -9,7 +9,6 @@ const DarkModeSwitch = () => {
     lightWhite: 'rgb(235, 235, 235)',
     darkestGrey: '#111',
   });
-  console.log(isDarkMode)
 
   useEffect(() => {
     // Retrieve dark mode preference from local storage on component mount
