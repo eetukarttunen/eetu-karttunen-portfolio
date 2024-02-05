@@ -5,15 +5,15 @@
     right: 20px;
     width: 50px;
     height: 50px;
-    background-color: #2ba84a;
-    color: #fff;
+    background-color: var(--light-white);
+    color: var(--dark-grey);
     border: none;
     border-radius: 50%;
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s, opacity 0.3s;
     z-index: 9999;
-    border: 1px solid rgba(255, 255, 255, 0.637);
+    border: 1px solid var(--dark-grey);
 }
 
 #scrollToTopBtn::before {
