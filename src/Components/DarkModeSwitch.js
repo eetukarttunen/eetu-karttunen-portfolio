@@ -1,4 +1,3 @@
-// DarkModeSwitch.js
 import React, { useState, useEffect } from 'react';
 import './DarkModeSwitch.css';
 
@@ -11,20 +10,19 @@ const DarkModeSwitch = () => {
   });
 
   useEffect(() => {
-    // Retrieve dark mode preference from local storage on component mount
     const savedDarkMode = localStorage.getItem('darkMode');
-    setIsDarkMode(savedDarkMode === 'true');
+    setIsDarkMode(savedDarkMode === 'true' || savedDarkMode === null);
   }, []);
+  
 
   useEffect(() => {
-    // Update colors when isDarkMode changes
     updateColors(isDarkMode);
   }, [isDarkMode]);
 
   const toggleDarkMode = () => {
     const newDarkMode = !isDarkMode;
     setIsDarkMode(newDarkMode);
-    localStorage.setItem('darkMode', newDarkMode);
+    localStorage.setItem('darkMode', newDarkMode.toString());
   };
 
   const updateColors = (isDarkMode) => {

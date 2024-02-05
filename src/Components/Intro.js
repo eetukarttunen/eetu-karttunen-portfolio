@@ -1,4 +1,3 @@
-// src/Components/Intro.js
 import React from 'react';
 import './Intro.css';
 import { useLanguage } from './LanguageContext';

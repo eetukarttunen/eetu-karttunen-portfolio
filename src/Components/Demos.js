@@ -13,7 +13,7 @@ function Demos() {
       <p>{languageData.demosParagraph}</p>
 
       <img
-        class="construction-site"
+        className="construction-site"
         src="./icons/dummy.jpg"
         alt="Profile"
       />
