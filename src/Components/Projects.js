@@ -11,15 +11,22 @@ function Projects() {
       <h1>{languageData.projectsText}</h1>
       <p>{languageData.projectsParagraph}</p>
 
-      <h2>{languageData.opiskelijaruokalistatHeading}</h2>
-      <h3>{languageData.opiskelijaruokalistatDetails}</h3>
-      <p>{languageData.opiskelijaruokalistatDescription}</p>
+      <h2>{languageData.atkytpHeading}</h2>
+      <h3>{languageData.atkytpDetails}</h3>
+      <p>{languageData.atkytpDescription}</p>
+      <img
+        className='project-picture'
+        src="./icons/atkytp.png"
+        alt="An example of the ATK-YTP website"
+      />
+      <p>{languageData.atkytpPictureDescription}</p>
       <img
         className='mobile-view'
-        src="./icons/opiskelijaruokalistatgif.gif"
-        alt="An example of the Opiskelijaruokalistat web application"
+        src="./icons/atkytpmobile.png"
+        alt="An example of the ATK-YTP website mobile view"
       />
-      <p>{languageData.opiskelijaruokalistatPictureDescription}</p>
+      <p>{languageData.atkytpPictureDescription2}</p>
+
 
       <h2>{languageData.koedaHeading}</h2>
       <h3>{languageData.koedaDetails}</h3>
@@ -61,21 +68,15 @@ function Projects() {
       />
       <p>{languageData.KoedaPictureDescription6}</p>
 
-      <h2>{languageData.atkytpHeading}</h2>
-      <h3>{languageData.atkytpDetails}</h3>
-      <p>{languageData.atkytpDescription}</p>
-      <img
-        className='project-picture'
-        src="./icons/atkytp.png"
-        alt="An example of the ATK-YTP website"
-      />
-      <p>{languageData.atkytpPictureDescription}</p>
+      <h2>{languageData.opiskelijaruokalistatHeading}</h2>
+      <h3>{languageData.opiskelijaruokalistatDetails}</h3>
+      <p>{languageData.opiskelijaruokalistatDescription}</p>
       <img
         className='mobile-view'
-        src="./icons/atkytpmobile.png"
-        alt="An example of the ATK-YTP website mobile view"
+        src="./icons/opiskelijaruokalistatgif.gif"
+        alt="An example of the Opiskelijaruokalistat web application"
       />
-      <p>{languageData.atkytpPictureDescription2}</p>
+      <p>{languageData.opiskelijaruokalistatPictureDescription}</p>
 
       <br />
     </div>
