@@ -26,8 +26,7 @@ function Projects() {
         alt="An example of the ATK-YTP website mobile view"
       />
       <p>{languageData.atkytpPictureDescription2}</p>
-
-
+      
       <h2>{languageData.koedaHeading}</h2>
       <h3>{languageData.koedaDetails}</h3>
       <p>{languageData.koedaDescription}</p>
