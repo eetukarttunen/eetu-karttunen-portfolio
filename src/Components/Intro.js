@@ -1,7 +1,6 @@
 import React from 'react';
 import './Intro.css';
 import { useLanguage } from './LanguageContext';
-import { Link } from 'react-router-dom';
 
 function Intro() {
   const { language } = useLanguage();
@@ -25,8 +24,11 @@ function Intro() {
       </div>
       <br/>
       <div className="button-container">
+      {/*
       <Link className='row-button' to="/projects">{languageData.projectsButton}</Link>
       <Link className='row-button' to="/demos">{languageData.demosButton}</Link>
+      */}
+      <a className='row-button' href="https://opiskelijaruokalista.vercel.app">{languageData.studentRestaurantMenusButton}</a>
       <br/>
       
       

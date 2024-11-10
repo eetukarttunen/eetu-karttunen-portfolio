@@ -8,7 +8,7 @@ import './Navigation.css';
 
 const Navigation = () => {
   const { language } = useLanguage();
-  const languageData = require(`../languages/${language}.json`);
+  //const languageData = require(`../languages/${language}.json`);
 
   return (
     <nav className="navigation">
@@ -17,12 +17,14 @@ const Navigation = () => {
           EK
         </Link>
         <div className="navbar-links">
+          {/*
           <Link to="/projects" className="navbar-link">
             {languageData.projectsText}
           </Link>
           <Link to="/demos" className="navbar-link">
             {languageData.demosText}
           </Link>
+          */}
           <br />
           <LanguageSwitcher />
           <br/>

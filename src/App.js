@@ -18,7 +18,6 @@ function App() {
         <ScrollToTopButton/>
         <Navigation />
         <div className="App-header">
-          {/* Wrap your main components with ScrollToTop */}
           <ScrollToTop>
             <Routes>
               <Route path="/" element={<Intro />} />
